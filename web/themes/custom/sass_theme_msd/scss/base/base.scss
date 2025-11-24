@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $creamy-white;
+  color: $black;
+  transition: background 0.3s, color 0.3s;
+}
+

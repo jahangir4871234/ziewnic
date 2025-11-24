@@ -1,0 +1,41 @@
+.header#header {
+    @extend .container;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+    .region--menubar {
+        #block-sass-theme-msd-leftmenu {
+            >ul {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+        }
+
+    }
+
+    .region--primary-menu {
+        #block-sass-theme-msd-rightmenu {
+            >ul {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+        }
+
+    }
+
+    ul {
+        li {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                @extend .body2;
+                color: $dark-gray;
+            }
+        }
+    }
+}

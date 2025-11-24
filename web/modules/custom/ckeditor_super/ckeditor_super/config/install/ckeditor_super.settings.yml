@@ -1,0 +1,12 @@
+enabled: true
+class_suggestions:
+  - 'text-large'
+  - 'highlight'
+  - 'lead'
+style_suggestions:
+  - { name: 'Button', class: 'btn btn-primary' }
+  - { name: 'Muted', class: 'text-muted' }
+templates:
+  - { name: 'Call To Action', html: '<div class="cta"><h2>Call to action</h2><p>Describe it here</p><a class="btn" href="#">Learn more</a></div>' }
+  - { name: 'Two Columns', html: '<div class="two-columns"><div class="col">Left</div><div class="col">Right</div></div>' }
+editor_css: ''

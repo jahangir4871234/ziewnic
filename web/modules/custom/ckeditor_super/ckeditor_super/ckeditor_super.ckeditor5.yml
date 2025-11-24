@@ -1,0 +1,35 @@
+ckeditor_super_class_adder:
+  ckeditor5:
+    plugins:
+      - ckeditorSuper.ClassAdder
+  drupal:
+    label: 'Add Class'
+    library: ckeditor_super/class_adder
+    elements:
+      - '<p>'
+      - '<h2>'
+      - '<div>'
+
+ckeditor_super_style_applier:
+  ckeditor5:
+    plugins:
+      - ckeditorSuper.StyleApplier
+  drupal:
+    label: 'Apply Style'
+    library: ckeditor_super/style_applier
+    elements:
+      - '<p>'
+      - '<h2>'
+      - '<div>'
+
+ckeditor_super_template_inserter:
+  ckeditor5:
+    plugins:
+      - ckeditorSuper.TemplateInserter
+  drupal:
+    label: 'Insert Template'
+    library: ckeditor_super/template_inserter
+    elements:
+      - '<p>'
+      - '<h2>'
+      - '<div>'

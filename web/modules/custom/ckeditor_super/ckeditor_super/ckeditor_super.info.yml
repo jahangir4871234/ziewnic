@@ -1,0 +1,7 @@
+name: 'CKEditor Super'
+type: module
+description: 'A powerful CKEditor 5 enhancement: class input, style suggestions, and templates. Configurable from admin.'
+core_version_requirement: '^10 || ^11 || ^12'
+package: 'Custom'
+dependencies:
+  - drupal:ckeditor5

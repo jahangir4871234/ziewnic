@@ -1,0 +1,25 @@
+// IMPORTING ALL THE SCSS FILES.
+
+// 1. BASE FILES
+@import "base/mixins";
+@import "base/variables";
+@import "base/typography";
+@import "base/fonts";
+@import "base/container";
+@import "base/social-icons";
+@import "base/messages";
+@import "base/grid";
+@import "base/menu-local-task";
+@import "base/base";
+
+
+
+
+// 3. COMPONENTS
+@import "components/hero";
+@import "components/menu";
+@import "components/footer";
+@import "components/feature-section";
+@import "components/about-us";
+@import "components/our-products";
+@import "components/project";

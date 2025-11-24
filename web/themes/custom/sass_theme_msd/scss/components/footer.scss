@@ -1,0 +1,158 @@
+  .site-footer {
+      position: relative;
+
+      .region--footer-first {
+          width: 100%;
+          height: 100%;
+
+          img {
+              width: 100%;
+              height: 410px;
+              object-fit: cover;
+
+
+          }
+      }
+
+      .footer-position {
+          background: rgba(0, 0, 0, 0.70);
+          position: absolute;
+          top: 0;
+          padding-block: $space-62;
+
+          .footer-main-wrapper {
+              @extend .container;
+              @extend .grid;
+
+              .region--footer-second {
+                  grid-column: 1/5;
+
+                  p {
+                      color: $white;
+                      @extend .body2;
+                  }
+
+              }
+
+              .region--footer-third {
+                  grid-column: 6/9;
+
+                  h2 {
+                      @extend .h6;
+                      position: relative;
+                      display: inline-block;
+                      padding-bottom: 10px;
+
+                      &::after {
+                          content: "";
+                          position: absolute;
+                          left: 50%;
+                          bottom: 0;
+                          transform: translateX(-50%);
+                          width: 100%;
+                          height: 3px;
+                          background: linear-gradient(90deg, #f7ccd9, #EE4F7E, #f7ccd9);
+                          border-radius: 50%;
+                      }
+                  }
+
+                  ul {
+                      li {
+                          a {
+                              @extend .body1;
+                              color: $white;
+                          }
+                      }
+                  }
+
+              }
+
+              .region--footer-fourth {
+                  grid-column: 9/-1;
+                  h2 {
+                      @extend .h6;
+                      position: relative;
+                      display: inline-block;
+                      padding-bottom: 10px;
+
+                      &::after {
+                          content: "";
+                          position: absolute;
+                          left: 50%;
+                          bottom: 0;
+                          transform: translateX(-50%);
+                          width: 100%;
+                          height: 3px;
+                          background: linear-gradient(90deg, #f7ccd9, #EE4F7E, #f7ccd9);
+                          border-radius: 50%;
+                      }
+                  }
+
+                  p {
+                      @extend .body1;
+                      color: $white;
+                      padding-block: 5px;
+
+
+                  }
+
+                  .social-media-links--platforms {
+                      display: flex;
+                      gap: $space-20;
+                      padding-top: 40px;
+
+                      a {
+
+                          span {
+
+                              &::before {
+                                  color: $white;
+                              }
+
+                              &:hover::before {
+                                  color: $primary-pink;
+                              }
+                          }
+                      }
+                  }
+              }
+
+              ul {
+                  padding-top: 8px;
+
+                  li {
+                      list-style: none;
+
+                      a {
+                          text-decoration: none;
+                          @extend .body2;
+                          color: $white;
+                      }
+                  }
+              }
+
+              h2 {
+                  @extend .body1;
+                  border-bottom: 2px solid $dark-gray;
+                  padding-bottom: 8px;
+
+              }
+
+
+
+          }
+      }
+
+      .region--footer-fifth {
+          text-align: center;
+          padding-top: 20px;
+          @extend .body2;
+          color: $white;
+
+          .line {
+              width: 100%;
+              height: 1px;
+              background: $white;
+          }
+      }
+  }

@@ -1,0 +1,9 @@
+ckeditor_super:
+  js:
+    js/plugins/classinput/plugin.js: {}
+    js/plugins/styles/plugin.js: {}
+    js/plugins/templates/plugin.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/ckeditor5

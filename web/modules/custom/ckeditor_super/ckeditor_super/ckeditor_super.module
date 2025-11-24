@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * CKEditor Super module.
+ */
+
+use Drupal\editor\Entity\Editor;
+
+/**
+ * Implements hook_ckeditor5_plugin_config_alter().
+ *
+ * Pass admin configuration to CKEditor plugin.
+ */
+function ckeditor_super_ckeditor5_plugin_config_alter(array &$config, Editor $editor) {
+  $settings = \Drupal::config('ckeditor_super.settings');
+  $config['ckeditorSuper'] = [
+    'enabled' => $settings->get('enabled'),
+    'classSuggestions' => $settings->get('class_suggestions') ?: [],
+    'styleSuggestions' => $settings->get('style_suggestions') ?: [],
+    'templates' => $settings->get('templates') ?: [],
+    'editorCss' => $settings->get('editor_css') ?: '',
+  ];
+}

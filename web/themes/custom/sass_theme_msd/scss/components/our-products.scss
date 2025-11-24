@@ -1,0 +1,75 @@
+#block-views-block-duplicate-of-latest-products-block-1 {
+  .latest-product-wrapper {
+    display: flex;
+    gap: $space-20;
+    position: relative;
+    flex-direction: column;
+    @include tablet{
+      flex-direction: row;
+    }
+
+    .views-exposed-form {
+      flex: 1;
+      background-color: $white;
+      padding: $space-10 $space-20;
+
+      /* FIXED FILTER SELECT */
+      .js-form-type-select {
+        position:absolute;     
+        left: 32%;             
+        top: 0;            
+        padding: $space-20;
+        background-color: $white;
+        border-radius: $space-10;
+        width: 60%;
+        @extend .h6;
+        color: $dark-gray;
+
+        .form-select {
+          border: none;
+          @extend .h6;
+          color: $dark-gray;
+          background: transparent;
+        }
+      }
+
+      .js-form-type-textfield {
+        .form-text {
+          width: 100%;
+          padding: $space-10;
+        }
+      }
+
+      .fieldgroup {
+        margin-block: $space-20;
+        border: none;
+      }
+      .form-radios{
+         .js-form-type-radio {
+            margin-block:$space-30;
+            @extend .h5;
+            color: $dark-gray;
+         }
+      }
+      .button{
+         width: 100%;
+         padding: $space-10;
+         margin-top: $space-30;
+      }
+    }
+
+    /* RIGHT SIDE PRODUCT GRID */
+    .product-right {
+      @extend .grid;
+      flex: 3;
+      margin-top: $space-100;
+
+      .products-items {
+         grid-column: span 2;
+         @include tablet{
+            grid-column: span 4;
+         }
+      }
+    }
+  }
+}

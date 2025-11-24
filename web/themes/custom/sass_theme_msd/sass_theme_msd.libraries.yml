@@ -1,0 +1,18 @@
+slick:
+  css:
+    component:
+      libs/slick-theme.css: {}
+      libs/slick.css: {}
+  js:
+    libs/slick.min.js: {}
+global:
+  js:
+    js/sliders.js: {}
+    js/counter.js: {}
+    js/theme-toggle.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+  css:
+    base:
+      css/style.css: {}

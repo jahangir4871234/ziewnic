@@ -1,0 +1,7 @@
+ckeditor_super.settings:
+  path: '/admin/config/content/ckeditor-super'
+  defaults:
+    _form: '\Drupal\ckeditor_super\Form\CKEditorSuperSettingsForm'
+    _title: 'CKEditor Super Settings'
+  requirements:
+    _permission: 'administer site configuration'
