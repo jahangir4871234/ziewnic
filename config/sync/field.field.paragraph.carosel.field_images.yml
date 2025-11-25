@@ -1,0 +1,29 @@
+uuid: 06d99ad5-bd24-4bd7-9e89-1baf4134534f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_images
+    - media.type.image
+    - paragraphs.paragraphs_type.carosel
+id: paragraph.carosel.field_images
+field_name: field_images
+entity_type: paragraph
+bundle: carosel
+label: images
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

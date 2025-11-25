@@ -1,0 +1,25 @@
+uuid: 78aaa58d-206b-40d0-a111-82f0c8561dbd
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.right-menu
+  module:
+    - system
+  theme:
+    - sass_theme_msd
+id: sass_theme_msd_rightmenu
+theme: sass_theme_msd
+region: primary_menu
+weight: -10
+provider: null
+plugin: 'system_menu_block:right-menu'
+settings:
+  id: 'system_menu_block:right-menu'
+  label: 'Right Menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

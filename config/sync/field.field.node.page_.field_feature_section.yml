@@ -1,0 +1,57 @@
+uuid: d240af6b-0e1e-47ee-9485-aed85b68e57d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_feature_section
+    - node.type.page_
+    - paragraphs.paragraphs_type.all_blocks
+    - paragraphs.paragraphs_type.banner_with_image
+    - paragraphs.paragraphs_type.feature_section
+    - paragraphs.paragraphs_type.hero_section
+    - paragraphs.paragraphs_type.text_with_image
+  module:
+    - entity_reference_revisions
+id: node.page_.field_feature_section
+field_name: field_feature_section
+entity_type: node
+bundle: page_
+label: Main
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      feature_section: feature_section
+      hero_section: hero_section
+      all_blocks: all_blocks
+      banner_with_image: banner_with_image
+      text_with_image: text_with_image
+    negate: 0
+    target_bundles_drag_drop:
+      all_blocks:
+        weight: 7
+        enabled: true
+      banner_with_image:
+        weight: 8
+        enabled: true
+      feature_section:
+        weight: 3
+        enabled: true
+      hero_left_section:
+        weight: 7
+        enabled: false
+      hero_section:
+        weight: 6
+        enabled: true
+      stats:
+        weight: 4
+        enabled: false
+      text_with_image:
+        weight: 14
+        enabled: true
+field_type: entity_reference_revisions

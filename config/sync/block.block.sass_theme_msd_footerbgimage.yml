@@ -1,0 +1,25 @@
+uuid: 00a7f815-b199-4353-bc47-46eefe1a5dd3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6549f69d-6808-4b02-aebd-442076a8f8ef'
+  module:
+    - block_content
+  theme:
+    - sass_theme_msd
+id: sass_theme_msd_footerbgimage
+theme: sass_theme_msd
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:6549f69d-6808-4b02-aebd-442076a8f8ef'
+settings:
+  id: 'block_content:6549f69d-6808-4b02-aebd-442076a8f8ef'
+  label: 'Footer Bg Image'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

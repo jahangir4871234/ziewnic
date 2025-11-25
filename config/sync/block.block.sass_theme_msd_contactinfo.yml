@@ -1,0 +1,25 @@
+uuid: 29b54985-5e9a-4009-8fc2-e74f7aa6a1a8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0d7c6a16-1255-45a1-b76d-98d2fda5e031'
+  module:
+    - block_content
+  theme:
+    - sass_theme_msd
+id: sass_theme_msd_contactinfo
+theme: sass_theme_msd
+region: footer_fourth
+weight: -10
+provider: null
+plugin: 'block_content:0d7c6a16-1255-45a1-b76d-98d2fda5e031'
+settings:
+  id: 'block_content:0d7c6a16-1255-45a1-b76d-98d2fda5e031'
+  label: 'Contact Info'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

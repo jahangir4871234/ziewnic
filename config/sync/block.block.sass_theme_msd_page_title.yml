@@ -1,0 +1,20 @@
+uuid: 1bd92c58-588b-4b16-8c4e-83d60b2bac6c
+langcode: en
+status: false
+dependencies:
+  theme:
+    - sass_theme_msd
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: sass_theme_msd_page_title
+theme: sass_theme_msd
+region: menubar
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,14 @@
+uuid: 538d5723-13a1-4b3a-81d2-cb268582be08
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - jahangirafridi703@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

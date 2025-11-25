@@ -1,0 +1,33 @@
+uuid: 64a76d78-0850-49b3-8896-35abdb5f7f49
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.project_listing
+  module:
+    - node
+    - views
+  theme:
+    - sass_theme_msd
+id: sass_theme_msd_views_block__project_listing_block_1
+theme: sass_theme_msd
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:project_listing-block_1'
+settings:
+  id: 'views_block:project_listing-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: null
+  exposed: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      projects: projects

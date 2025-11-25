@@ -52,7 +52,7 @@ h2 {
   }
 }
 
-.h3, #block-sass-theme-msd-views-block-project-listing-block-1 .views-row .project-view-wrapper .detail a, #block-views-block-project-listing-block-1 .views-row .project-view-wrapper .detail a, #block-views-block-profile-block-1 .founder-wrapper .views-row .profile-content .profile-details .profile-title a,
+.h3, #block-views-block-profile-block-1 .founder-wrapper .views-row .profile-content .profile-details .profile-title a,
 h3 {
   font-family: "Futura", sans-serif;
   font-size: 36px;
@@ -62,7 +62,7 @@ h3 {
   color: #3A3A3A;
 }
 
-.h4, .carosel-wrapper .detail span, #block-views-block-duplicate-of-profile-block-1 .main-wrapper .profile-description .profile-title a,
+.h4, .description .date time, .carosel-wrapper .carosel-main-wrapper .detail span, #block-views-block-duplicate-of-profile-block-1 .main-wrapper .profile-description .profile-title a,
 h4 {
   font-family: "Futura", sans-serif;
   font-size: 30px;
@@ -96,7 +96,7 @@ h5 {
   }
 }
 
-.h6, .paragraph--type--carousel-wrapper .project-main-wrapper .detail time, .carosel-wrapper .description .date time, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select .form-select, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select, #block-views-block-duplicate-of-profile-block-1 .main-wrapper .profile-description .profile-designation, .feature-section .right-section .cta-links a, .feature-section .right-section ul li, .feature-section .right-section p, .site-footer .footer-position .footer-main-wrapper .region--footer-fourth h2, .site-footer .footer-position .footer-main-wrapper .region--footer-third h2, .latest-product-wrapper .products-items .description h5, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description h5,
+.h6, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select .form-select, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select, #block-views-block-duplicate-of-profile-block-1 .main-wrapper .profile-description .profile-designation, .feature-section .right-section .cta-links a, .feature-section .right-section ul li, .feature-section .right-section p, .site-footer .footer-position .footer-main-wrapper .region--footer-fourth h2, .site-footer .footer-position .footer-main-wrapper .region--footer-third h2, .latest-product-wrapper .products-items .description h5, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description h5,
 h6 {
   font-family: "Futura", sans-serif;
   font-size: 16px;
@@ -106,14 +106,14 @@ h6 {
   color: #fff;
 }
 @media (min-width: 768px) {
-  .h6, .paragraph--type--carousel-wrapper .project-main-wrapper .detail time, .carosel-wrapper .description .date time, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select .form-select, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select, #block-views-block-duplicate-of-profile-block-1 .main-wrapper .profile-description .profile-designation, .feature-section .right-section .cta-links a, .feature-section .right-section ul li, .feature-section .right-section p, .site-footer .footer-position .footer-main-wrapper .region--footer-fourth h2, .site-footer .footer-position .footer-main-wrapper .region--footer-third h2, .latest-product-wrapper .products-items .description h5, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description h5,
+  .h6, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select .form-select, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select, #block-views-block-duplicate-of-profile-block-1 .main-wrapper .profile-description .profile-designation, .feature-section .right-section .cta-links a, .feature-section .right-section ul li, .feature-section .right-section p, .site-footer .footer-position .footer-main-wrapper .region--footer-fourth h2, .site-footer .footer-position .footer-main-wrapper .region--footer-third h2, .latest-product-wrapper .products-items .description h5, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description h5,
   h6 {
     font-size: 18px;
     line-height: 26px;
   }
 }
 @media (min-width: 1280px) {
-  .h6, .paragraph--type--carousel-wrapper .project-main-wrapper .detail time, .carosel-wrapper .description .date time, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select .form-select, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select, #block-views-block-duplicate-of-profile-block-1 .main-wrapper .profile-description .profile-designation, .feature-section .right-section .cta-links a, .feature-section .right-section ul li, .feature-section .right-section p, .site-footer .footer-position .footer-main-wrapper .region--footer-fourth h2, .site-footer .footer-position .footer-main-wrapper .region--footer-third h2, .latest-product-wrapper .products-items .description h5, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description h5,
+  .h6, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select .form-select, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select, #block-views-block-duplicate-of-profile-block-1 .main-wrapper .profile-description .profile-designation, .feature-section .right-section .cta-links a, .feature-section .right-section ul li, .feature-section .right-section p, .site-footer .footer-position .footer-main-wrapper .region--footer-fourth h2, .site-footer .footer-position .footer-main-wrapper .region--footer-third h2, .latest-product-wrapper .products-items .description h5, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description h5,
   h6 {
     font-size: 20px;
     line-height: 27px;
@@ -140,7 +140,7 @@ h6 {
   }
 }
 
-.body2, .carosel-wrapper .description P, #block-views-block-profile-block-1 .founder-wrapper .views-row .profile-content .profile-details .profile-info p, .site-footer .region--footer-fifth, .site-footer .footer-position .footer-main-wrapper ul li a, .site-footer .footer-position .footer-main-wrapper .region--footer-second p, .header#header ul li a, #page .header-on-front-page .header li a, .latest-product-wrapper .products-items .description p, .latest-product-wrapper header p, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description .price h6, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description p {
+.body2, .description .date p, #block-views-block-profile-block-1 .founder-wrapper .views-row .profile-content .profile-details .profile-info p, .site-footer .region--footer-fifth, .site-footer .footer-position .footer-main-wrapper ul li a, .site-footer .footer-position .footer-main-wrapper .region--footer-second p, .header#header ul li a, #page .header-on-front-page .header li a, .latest-product-wrapper .products-items .description p, .latest-product-wrapper header p, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description .price h6, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description p {
   font-family: "Futura", sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -149,12 +149,12 @@ h6 {
   color: #fff;
 }
 @media (min-width: 768px) {
-  .body2, .carosel-wrapper .description P, #block-views-block-profile-block-1 .founder-wrapper .views-row .profile-content .profile-details .profile-info p, .site-footer .region--footer-fifth, .site-footer .footer-position .footer-main-wrapper ul li a, .site-footer .footer-position .footer-main-wrapper .region--footer-second p, .header#header ul li a, #page .header-on-front-page .header li a, .latest-product-wrapper .products-items .description p, .latest-product-wrapper header p, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description .price h6, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description p {
+  .body2, .description .date p, #block-views-block-profile-block-1 .founder-wrapper .views-row .profile-content .profile-details .profile-info p, .site-footer .region--footer-fifth, .site-footer .footer-position .footer-main-wrapper ul li a, .site-footer .footer-position .footer-main-wrapper .region--footer-second p, .header#header ul li a, #page .header-on-front-page .header li a, .latest-product-wrapper .products-items .description p, .latest-product-wrapper header p, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description .price h6, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description p {
     line-height: 24px;
   }
 }
 @media (min-width: 1280px) {
-  .body2, .carosel-wrapper .description P, #block-views-block-profile-block-1 .founder-wrapper .views-row .profile-content .profile-details .profile-info p, .site-footer .region--footer-fifth, .site-footer .footer-position .footer-main-wrapper ul li a, .site-footer .footer-position .footer-main-wrapper .region--footer-second p, .header#header ul li a, #page .header-on-front-page .header li a, .latest-product-wrapper .products-items .description p, .latest-product-wrapper header p, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description .price h6, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description p {
+  .body2, .description .date p, #block-views-block-profile-block-1 .founder-wrapper .views-row .profile-content .profile-details .profile-info p, .site-footer .region--footer-fifth, .site-footer .footer-position .footer-main-wrapper ul li a, .site-footer .footer-position .footer-main-wrapper .region--footer-second p, .header#header ul li a, #page .header-on-front-page .header li a, .latest-product-wrapper .products-items .description p, .latest-product-wrapper header p, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description .price h6, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description p {
     font-size: 16px;
     line-height: 26px;
   }
@@ -269,17 +269,17 @@ h6 {
   src: url(../fonts/Inter/Inter_18pt-Bold.ttf);
   font-weight: 700;
 }
-.container, .paragraph--type--carousel-wrapper, .carosel-wrapper .description, #block-views-block-duplicate-of-profile-block-1, .paragraph--type--text-with-image, #block-views-block-profile-block-1, .feature-section, .site-footer .footer-position .footer-main-wrapper, .header#header, #page .header-on-front-page, .hero-wrapper .body-main-wrapper {
+.container, .description, .carosel-wrapper, #block-views-block-duplicate-of-profile-block-1, .paragraph--type--text-with-image, #block-views-block-profile-block-1, .feature-section, .site-footer .footer-position .footer-main-wrapper, .header#header, #page .header-on-front-page, .hero-wrapper .body-main-wrapper {
   padding-inline: 25px !important;
   margin-inline: auto;
 }
 @media (min-width: 768px) {
-  .container, .paragraph--type--carousel-wrapper, .carosel-wrapper .description, #block-views-block-duplicate-of-profile-block-1, .paragraph--type--text-with-image, #block-views-block-profile-block-1, .feature-section, .site-footer .footer-position .footer-main-wrapper, .header#header, #page .header-on-front-page, .hero-wrapper .body-main-wrapper {
+  .container, .description, .carosel-wrapper, #block-views-block-duplicate-of-profile-block-1, .paragraph--type--text-with-image, #block-views-block-profile-block-1, .feature-section, .site-footer .footer-position .footer-main-wrapper, .header#header, #page .header-on-front-page, .hero-wrapper .body-main-wrapper {
     padding-inline: 50px !important;
   }
 }
 @media (min-width: 1280px) {
-  .container, .paragraph--type--carousel-wrapper, .carosel-wrapper .description, #block-views-block-duplicate-of-profile-block-1, .paragraph--type--text-with-image, #block-views-block-profile-block-1, .feature-section, .site-footer .footer-position .footer-main-wrapper, .header#header, #page .header-on-front-page, .hero-wrapper .body-main-wrapper {
+  .container, .description, .carosel-wrapper, #block-views-block-duplicate-of-profile-block-1, .paragraph--type--text-with-image, #block-views-block-profile-block-1, .feature-section, .site-footer .footer-position .footer-main-wrapper, .header#header, #page .header-on-front-page, .hero-wrapper .body-main-wrapper {
     padding-inline: 80px !important;
     margin-inline: auto !important;
     max-width: 1440px;
@@ -1285,57 +1285,30 @@ body {
   }
 }
 
-.carosel-wrapper {
-  position: relative;
-}
-.carosel-wrapper .detail {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  top: 56%;
-  left: 15%;
-}
-.carosel-wrapper .detail span {
-  color: #fff;
-}
-.carosel-wrapper .description {
-  padding-top: 35px;
-}
-.carosel-wrapper .description .date time {
-  color: #3A3A3A;
-  margin-bottom: 20px;
-}
-.carosel-wrapper .description h2 {
-  color: #4C469C;
-}
-.carosel-wrapper .description P {
-  color: #3A3A3A;
-}
-
-.paragraph--type--carousel-wrapper .project-main-wrapper {
+.carosel-wrapper .carosel-main-wrapper {
   position: relative;
   padding-top: 110px;
 }
-.paragraph--type--carousel-wrapper .project-main-wrapper .image-wrapper img {
+.carosel-wrapper .carosel-main-wrapper .image-wrapper img {
   width: 100%;
   height: 500px;
   object-fit: cover;
   border-radius: 10px;
 }
-.paragraph--type--carousel-wrapper .project-main-wrapper .detail {
+.carosel-wrapper .carosel-main-wrapper .detail {
   position: absolute;
-  bottom: 25%;
+  bottom: 10%;
   left: 10%;
 }
-.paragraph--type--carousel-wrapper .project-main-wrapper .detail time {
+.carosel-wrapper .carosel-main-wrapper .detail span {
   color: #fff;
 }
-.paragraph--type--carousel-wrapper .slick-prev,
-.paragraph--type--carousel-wrapper .slick-next {
+.carosel-wrapper .slick-prev,
+.carosel-wrapper .slick-next {
   z-index: 10;
 }
-.paragraph--type--carousel-wrapper .slick-prev::before,
-.paragraph--type--carousel-wrapper .slick-next::before {
+.carosel-wrapper .slick-prev::before,
+.carosel-wrapper .slick-next::before {
   content: "";
   background: #fff url("../icons/arrow-icon.svg") no-repeat center;
   background-size: 14px 14px;
@@ -1346,69 +1319,27 @@ body {
   align-items: center;
   justify-content: center;
 }
-.paragraph--type--carousel-wrapper .slick-prev {
+.carosel-wrapper .slick-prev {
   left: 5% !important;
 }
-.paragraph--type--carousel-wrapper .slick-prev::before {
+.carosel-wrapper .slick-prev::before {
   transform: rotate(180deg);
 }
-.paragraph--type--carousel-wrapper .slick-next {
+.carosel-wrapper .slick-next {
   right: 5% !important;
 }
 
-#block-sass-theme-msd-views-block-project-listing-block-1, #block-views-block-project-listing-block-1 {
-  margin-block: 110px;
+.description {
+  padding-block: 35px 110px;
 }
-#block-sass-theme-msd-views-block-project-listing-block-1 .views-row, #block-views-block-project-listing-block-1 .views-row {
-  grid-column: span 4;
+.description .date time {
+  color: #3A3A3A;
 }
-#block-sass-theme-msd-views-block-project-listing-block-1 .views-row .project-view-wrapper, #block-views-block-project-listing-block-1 .views-row .project-view-wrapper {
-  position: relative;
-  overflow: hidden;
+.description .date h2 {
+  color: #4C469C;
 }
-#block-sass-theme-msd-views-block-project-listing-block-1 .views-row .project-view-wrapper .image-wrapper img, #block-views-block-project-listing-block-1 .views-row .project-view-wrapper .image-wrapper img {
-  height: 267px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 5px;
-}
-#block-sass-theme-msd-views-block-project-listing-block-1 .views-row .project-view-wrapper .detail, #block-views-block-project-listing-block-1 .views-row .project-view-wrapper .detail {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, 40%);
-  opacity: 0;
-  text-align: center;
-  transition: all 0.4s ease;
-  width: 100%;
-}
-#block-sass-theme-msd-views-block-project-listing-block-1 .views-row .project-view-wrapper .detail a, #block-views-block-project-listing-block-1 .views-row .project-view-wrapper .detail a {
-  text-decoration: none;
-  color: #fff;
-  position: relative;
-  display: inline-block;
-  padding-top: 40px;
-}
-#block-sass-theme-msd-views-block-project-listing-block-1 .views-row .project-view-wrapper .detail a::before, #block-views-block-project-listing-block-1 .views-row .project-view-wrapper .detail a::before {
-  content: "";
-  width: 50px;
-  height: 50px;
-  background-image: url("../icons/carbon_view-filled.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0;
-  transition: opacity 0.4s ease;
-}
-#block-sass-theme-msd-views-block-project-listing-block-1 .views-row .project-view-wrapper:hover .detail, #block-views-block-project-listing-block-1 .views-row .project-view-wrapper:hover .detail {
-  opacity: 1;
-  transform: translate(-50%, -50%);
-}
-#block-sass-theme-msd-views-block-project-listing-block-1 .views-row .project-view-wrapper:hover .detail a::before, #block-views-block-project-listing-block-1 .views-row .project-view-wrapper:hover .detail a::before {
-  opacity: 1;
+.description .date p {
+  color: #3A3A3A;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+uuid: dfdb75d5-ecc2-49f0-afe2-c0afacc2d2c4
+langcode: en
+status: true
+dependencies: {  }
+id: carosel
+label: Carousel
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

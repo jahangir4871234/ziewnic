@@ -1,0 +1,25 @@
+uuid: c6429e18-c5ce-441b-a3ff-a93a8c4ac3a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.left-menu
+  module:
+    - system
+  theme:
+    - sass_theme_msd
+id: sass_theme_msd_leftmenu_2
+theme: sass_theme_msd
+region: footer_third
+weight: -10
+provider: null
+plugin: 'system_menu_block:left-menu'
+settings:
+  id: 'system_menu_block:left-menu'
+  label: 'Quick Links'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

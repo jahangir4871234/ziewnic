@@ -1,0 +1,29 @@
+uuid: c9a27b95-fbec-4d91-81b6-78945a68adab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_small_image
+    - media.type.image
+    - paragraphs.paragraphs_type.feature_section
+id: paragraph.feature_section.field_small_image
+field_name: field_small_image
+entity_type: paragraph
+bundle: feature_section
+label: 'Small Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,18 @@
+uuid: ed3c69d0-7b09-4f7d-98e0-ede4e41bf8e0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_best_selling
+field_name: field_best_selling
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

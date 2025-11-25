@@ -1,0 +1,22 @@
+uuid: c6dbc5d5-a236-499d-ad02-bc83ed49c248
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sass_theme_msd
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: sass_theme_msd_content
+theme: sass_theme_msd
+region: content
+weight: -10
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

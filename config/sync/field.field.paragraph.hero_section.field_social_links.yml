@@ -1,0 +1,25 @@
+uuid: 5bfc9756-5d25-44de-a827-80a9224dc36b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_social_links
+    - paragraphs.paragraphs_type.hero_section
+  module:
+    - block_field
+id: paragraph.hero_section.field_social_links
+field_name: field_social_links
+entity_type: paragraph
+bundle: hero_section
+label: 'Social links'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  selection: blocks
+  selection_settings:
+    plugin_ids:
+      'block_content:59db8bd4-3399-4fef-8df5-e68c5498ce83': 'block_content:59db8bd4-3399-4fef-8df5-e68c5498ce83'
+field_type: block_field

@@ -1,0 +1,29 @@
+uuid: 462c3109-bd7b-4407-895d-6948cc82272a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_products_image
+    - media.type.image
+    - node.type.products_
+id: node.products_.field_products_image
+field_name: field_products_image
+entity_type: node
+bundle: products_
+label: 'Products Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

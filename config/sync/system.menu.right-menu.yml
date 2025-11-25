@@ -1,0 +1,8 @@
+uuid: af71e602-ccf6-4b3b-8458-06778572d1b6
+langcode: en
+status: true
+dependencies: {  }
+id: right-menu
+label: 'Right Menu'
+description: ''
+locked: false

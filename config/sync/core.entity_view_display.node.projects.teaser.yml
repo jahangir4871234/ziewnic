@@ -1,0 +1,39 @@
+uuid: 18ce7efa-4778-4c72-b912-3478bcf476ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.projects.field_date
+    - field.field.node.projects.field_image
+    - field.field.node.projects.field_project_description
+    - image.style.medium
+    - node.type.projects
+  module:
+    - image
+    - user
+id: node.projects.teaser
+targetEntityType: node
+bundle: projects
+mode: teaser
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_date: true
+  field_project_description: true
+  langcode: true

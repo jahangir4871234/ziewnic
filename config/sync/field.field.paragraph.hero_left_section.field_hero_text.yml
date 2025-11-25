@@ -1,0 +1,22 @@
+uuid: e995977d-4d84-4612-8ae5-5402a15aaccd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hero_text
+    - paragraphs.paragraphs_type.hero_left_section
+  module:
+    - text
+id: paragraph.hero_left_section.field_hero_text
+field_name: field_hero_text
+entity_type: paragraph
+bundle: hero_left_section
+label: 'Hero Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,43 @@
+uuid: 119e827f-240f-415f-9f09-93f6b87cdf3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hero_section
+    - paragraphs.paragraphs_type.hero_left_section
+    - paragraphs.paragraphs_type.hero_section
+  module:
+    - entity_reference_revisions
+id: paragraph.hero_section.field_hero_section
+field_name: field_hero_section
+entity_type: paragraph
+bundle: hero_section
+label: 'Hero Left Section'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      hero_left_section: hero_left_section
+    negate: 0
+    target_bundles_drag_drop:
+      all_blocks:
+        weight: 6
+        enabled: false
+      feature_section:
+        weight: 6
+        enabled: false
+      hero_left_section:
+        weight: 7
+        enabled: true
+      hero_section:
+        weight: 9
+        enabled: false
+      stats:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

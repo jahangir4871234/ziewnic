@@ -1,0 +1,21 @@
+uuid: f5fcdb52-7fe1-466e-9f72-bd19501dd99e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_best_selling
+    - node.type.products_
+id: node.products_.field_best_selling
+field_name: field_best_selling
+entity_type: node
+bundle: products_
+label: 'Best Selling'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

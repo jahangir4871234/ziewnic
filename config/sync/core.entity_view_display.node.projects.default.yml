@@ -1,0 +1,54 @@
+uuid: efd15371-6bf6-4df9-9fd1-20fb18372cd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.projects.field_date
+    - field.field.node.projects.field_image
+    - field.field.node.projects.field_project_description
+    - image.style.wide
+    - node.type.projects
+  module:
+    - datetime
+    - image
+    - text
+    - user
+id: node.projects.default
+targetEntityType: node
+bundle: projects
+mode: default
+content:
+  field_date:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: wide
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_project_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  langcode: true
