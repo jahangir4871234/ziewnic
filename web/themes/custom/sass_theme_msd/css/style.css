@@ -52,7 +52,7 @@ h2 {
   }
 }
 
-.h3, #block-views-block-profile-block-1 .founder-wrapper .views-row .profile-content .profile-details .profile-title a,
+.h3, .project-listing-wrapper .views-row .project-view-wrapper .detail a, .project-listing-wrapper .views-row .project-view-wrapper .detail, .products-detail-wrapper .gallery .description h5, #block-views-block-profile-block-1 .founder-wrapper .views-row .profile-content .profile-details .profile-title a,
 h3 {
   font-family: "Futura", sans-serif;
   font-size: 36px;
@@ -77,7 +77,7 @@ h5 {
   font-family: "Futura", sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 28px;
   color: #3A3A3A;
 }
@@ -96,7 +96,7 @@ h5 {
   }
 }
 
-.h6, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select .form-select, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select, #block-views-block-duplicate-of-profile-block-1 .main-wrapper .profile-description .profile-designation, .feature-section .right-section .cta-links a, .feature-section .right-section ul li, .feature-section .right-section p, .site-footer .footer-position .footer-main-wrapper .region--footer-fourth h2, .site-footer .footer-position .footer-main-wrapper .region--footer-third h2, .latest-product-wrapper .products-items .description h5, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description h5,
+.h6, .products-detail-wrapper .features h5 span, .products-detail-wrapper .features ul, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select .form-select, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select, #block-views-block-duplicate-of-profile-block-1 .main-wrapper .profile-description .profile-designation, .feature-section .right-section .cta-links a, .feature-section .right-section ul li, .feature-section .right-section p, .site-footer .footer-position .footer-main-wrapper .region--footer-fourth h2, .site-footer .footer-position .footer-main-wrapper .region--footer-third h2, .latest-product-wrapper .products-items .description h5, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description h5,
 h6 {
   font-family: "Futura", sans-serif;
   font-size: 16px;
@@ -106,14 +106,14 @@ h6 {
   color: #fff;
 }
 @media (min-width: 768px) {
-  .h6, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select .form-select, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select, #block-views-block-duplicate-of-profile-block-1 .main-wrapper .profile-description .profile-designation, .feature-section .right-section .cta-links a, .feature-section .right-section ul li, .feature-section .right-section p, .site-footer .footer-position .footer-main-wrapper .region--footer-fourth h2, .site-footer .footer-position .footer-main-wrapper .region--footer-third h2, .latest-product-wrapper .products-items .description h5, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description h5,
+  .h6, .products-detail-wrapper .features h5 span, .products-detail-wrapper .features ul, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select .form-select, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select, #block-views-block-duplicate-of-profile-block-1 .main-wrapper .profile-description .profile-designation, .feature-section .right-section .cta-links a, .feature-section .right-section ul li, .feature-section .right-section p, .site-footer .footer-position .footer-main-wrapper .region--footer-fourth h2, .site-footer .footer-position .footer-main-wrapper .region--footer-third h2, .latest-product-wrapper .products-items .description h5, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description h5,
   h6 {
     font-size: 18px;
     line-height: 26px;
   }
 }
 @media (min-width: 1280px) {
-  .h6, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select .form-select, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select, #block-views-block-duplicate-of-profile-block-1 .main-wrapper .profile-description .profile-designation, .feature-section .right-section .cta-links a, .feature-section .right-section ul li, .feature-section .right-section p, .site-footer .footer-position .footer-main-wrapper .region--footer-fourth h2, .site-footer .footer-position .footer-main-wrapper .region--footer-third h2, .latest-product-wrapper .products-items .description h5, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description h5,
+  .h6, .products-detail-wrapper .features h5 span, .products-detail-wrapper .features ul, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select .form-select, #block-views-block-duplicate-of-latest-products-block-1 .latest-product-wrapper .views-exposed-form .js-form-type-select, #block-views-block-duplicate-of-profile-block-1 .main-wrapper .profile-description .profile-designation, .feature-section .right-section .cta-links a, .feature-section .right-section ul li, .feature-section .right-section p, .site-footer .footer-position .footer-main-wrapper .region--footer-fourth h2, .site-footer .footer-position .footer-main-wrapper .region--footer-third h2, .latest-product-wrapper .products-items .description h5, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description h5,
   h6 {
     font-size: 20px;
     line-height: 27px;
@@ -140,7 +140,7 @@ h6 {
   }
 }
 
-.body2, .carosel-wrapper .description p, #block-views-block-profile-block-1 .founder-wrapper .views-row .profile-content .profile-details .profile-info p, .site-footer .region--footer-fifth, .site-footer .footer-position .footer-main-wrapper ul li a, .site-footer .footer-position .footer-main-wrapper .region--footer-second p, .header#header ul li a, #page .header-on-front-page .header li a, .latest-product-wrapper .products-items .description p, .latest-product-wrapper header p, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description .price h6, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description p {
+.body2, .carosel-wrapper .description p, .products-detail-wrapper .gallery .description p, #block-views-block-profile-block-1 .founder-wrapper .views-row .profile-content .profile-details .profile-info p, .site-footer .region--footer-fifth, .site-footer .footer-position .footer-main-wrapper ul li a, .site-footer .footer-position .footer-main-wrapper .region--footer-second p, .header#header ul li a, #page .header-on-front-page .header li a, .latest-product-wrapper .products-items .description p, .latest-product-wrapper header p, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description .price h6, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description p {
   font-family: "Futura", sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -149,12 +149,12 @@ h6 {
   color: #fff;
 }
 @media (min-width: 768px) {
-  .body2, .carosel-wrapper .description p, #block-views-block-profile-block-1 .founder-wrapper .views-row .profile-content .profile-details .profile-info p, .site-footer .region--footer-fifth, .site-footer .footer-position .footer-main-wrapper ul li a, .site-footer .footer-position .footer-main-wrapper .region--footer-second p, .header#header ul li a, #page .header-on-front-page .header li a, .latest-product-wrapper .products-items .description p, .latest-product-wrapper header p, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description .price h6, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description p {
+  .body2, .carosel-wrapper .description p, .products-detail-wrapper .gallery .description p, #block-views-block-profile-block-1 .founder-wrapper .views-row .profile-content .profile-details .profile-info p, .site-footer .region--footer-fifth, .site-footer .footer-position .footer-main-wrapper ul li a, .site-footer .footer-position .footer-main-wrapper .region--footer-second p, .header#header ul li a, #page .header-on-front-page .header li a, .latest-product-wrapper .products-items .description p, .latest-product-wrapper header p, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description .price h6, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description p {
     line-height: 24px;
   }
 }
 @media (min-width: 1280px) {
-  .body2, .carosel-wrapper .description p, #block-views-block-profile-block-1 .founder-wrapper .views-row .profile-content .profile-details .profile-info p, .site-footer .region--footer-fifth, .site-footer .footer-position .footer-main-wrapper ul li a, .site-footer .footer-position .footer-main-wrapper .region--footer-second p, .header#header ul li a, #page .header-on-front-page .header li a, .latest-product-wrapper .products-items .description p, .latest-product-wrapper header p, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description .price h6, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description p {
+  .body2, .carosel-wrapper .description p, .products-detail-wrapper .gallery .description p, #block-views-block-profile-block-1 .founder-wrapper .views-row .profile-content .profile-details .profile-info p, .site-footer .region--footer-fifth, .site-footer .footer-position .footer-main-wrapper ul li a, .site-footer .footer-position .footer-main-wrapper .region--footer-second p, .header#header ul li a, #page .header-on-front-page .header li a, .latest-product-wrapper .products-items .description p, .latest-product-wrapper header p, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description .price h6, .hero-wrapper .body-main-wrapper .hero-content .above-content .right-wrapper .description p {
     font-size: 16px;
     line-height: 26px;
   }
@@ -199,7 +199,7 @@ h6 {
   }
 }
 
-.primary-button, .hero-wrapper .body-main-wrapper .hero-content .above-content .paragraph--type--hero-left-section .hero-left-wrapper .hero-left-links a {
+.primary-button, .products-detail-wrapper .gallery .description h6 button, .hero-wrapper .body-main-wrapper .hero-content .above-content .paragraph--type--hero-left-section .hero-left-wrapper .hero-left-links a {
   font-family: "Futura", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -209,13 +209,13 @@ h6 {
   color: #fff;
 }
 @media (min-width: 768px) {
-  .primary-button, .hero-wrapper .body-main-wrapper .hero-content .above-content .paragraph--type--hero-left-section .hero-left-wrapper .hero-left-links a {
+  .primary-button, .products-detail-wrapper .gallery .description h6 button, .hero-wrapper .body-main-wrapper .hero-content .above-content .paragraph--type--hero-left-section .hero-left-wrapper .hero-left-links a {
     font-size: 18px;
     line-height: 26px;
   }
 }
 @media (min-width: 1280px) {
-  .primary-button, .hero-wrapper .body-main-wrapper .hero-content .above-content .paragraph--type--hero-left-section .hero-left-wrapper .hero-left-links a {
+  .primary-button, .products-detail-wrapper .gallery .description h6 button, .hero-wrapper .body-main-wrapper .hero-content .above-content .paragraph--type--hero-left-section .hero-left-wrapper .hero-left-links a {
     font-size: 20px;
     line-height: 27px;
   }
@@ -269,17 +269,17 @@ h6 {
   src: url(../fonts/Inter/Inter_18pt-Bold.ttf);
   font-weight: 700;
 }
-.container, .carosel-wrapper, #block-views-block-duplicate-of-profile-block-1, .paragraph--type--text-with-image, #block-views-block-profile-block-1, .feature-section, .site-footer .footer-position .footer-main-wrapper, .header#header, #page .header-on-front-page, .hero-wrapper .body-main-wrapper {
+.container, .carosel-wrapper, .products-detail-wrapper, #block-views-block-duplicate-of-profile-block-1, .paragraph--type--text-with-image, #block-views-block-profile-block-1, .feature-section, .site-footer .footer-position .footer-main-wrapper, .header#header, #page .header-on-front-page, .hero-wrapper .body-main-wrapper {
   padding-inline: 25px !important;
   margin-inline: auto;
 }
 @media (min-width: 768px) {
-  .container, .carosel-wrapper, #block-views-block-duplicate-of-profile-block-1, .paragraph--type--text-with-image, #block-views-block-profile-block-1, .feature-section, .site-footer .footer-position .footer-main-wrapper, .header#header, #page .header-on-front-page, .hero-wrapper .body-main-wrapper {
+  .container, .carosel-wrapper, .products-detail-wrapper, #block-views-block-duplicate-of-profile-block-1, .paragraph--type--text-with-image, #block-views-block-profile-block-1, .feature-section, .site-footer .footer-position .footer-main-wrapper, .header#header, #page .header-on-front-page, .hero-wrapper .body-main-wrapper {
     padding-inline: 50px !important;
   }
 }
 @media (min-width: 1280px) {
-  .container, .carosel-wrapper, #block-views-block-duplicate-of-profile-block-1, .paragraph--type--text-with-image, #block-views-block-profile-block-1, .feature-section, .site-footer .footer-position .footer-main-wrapper, .header#header, #page .header-on-front-page, .hero-wrapper .body-main-wrapper {
+  .container, .carosel-wrapper, .products-detail-wrapper, #block-views-block-duplicate-of-profile-block-1, .paragraph--type--text-with-image, #block-views-block-profile-block-1, .feature-section, .site-footer .footer-position .footer-main-wrapper, .header#header, #page .header-on-front-page, .hero-wrapper .body-main-wrapper {
     padding-inline: 80px !important;
     margin-inline: auto !important;
     max-width: 1440px;
@@ -673,18 +673,22 @@ body {
     grid-column: span 6;
   }
 }
-.latest-product-wrapper .products-items .product-image {
+.latest-product-wrapper .products-items a {
+  display: block;
+  width: 100%;
+}
+.latest-product-wrapper .products-items a .product-image {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-.latest-product-wrapper .products-items .product-image img {
+.latest-product-wrapper .products-items a .product-image img {
   width: 100%;
   height: 100%;
   object-fit: contain;
   transition: transform 0.5s ease-in-out;
 }
-.latest-product-wrapper .products-items .product-image:hover img {
+.latest-product-wrapper .products-items a .product-image:hover img {
   transform: scale(0.9);
 }
 .latest-product-wrapper .products-items .description {
@@ -1154,6 +1158,7 @@ body {
   color: #4C469C;
   padding-left: 20px;
 }
+
 #block-views-block-duplicate-of-profile-block-1 {
   margin-block: 110px;
 }
@@ -1285,6 +1290,92 @@ body {
   }
 }
 
+.products-detail-wrapper .gallery {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-block: 110px 55px;
+}
+.products-detail-wrapper .gallery .left-section {
+  display: flex;
+  flex-direction: row-reverse;
+  flex: 1;
+  gap: 24px;
+}
+.products-detail-wrapper .gallery .left-section .preview-wrapper {
+  background-color: #fff;
+  padding-block: 15px;
+  border-radius: 10px;
+  border-bottom: 3px solid #4C469C;
+}
+.products-detail-wrapper .gallery .left-section .preview-wrapper .image-wrapper {
+  width: 481px;
+  height: 416px;
+  perspective: 1000px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.products-detail-wrapper .gallery .left-section .preview-wrapper .image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: rotateY(15deg);
+}
+.products-detail-wrapper .gallery .left-section .thumbs {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.products-detail-wrapper .gallery .left-section .thumbs .image-wrapper {
+  border-radius: 5px;
+  border: 1px solid #4C469C;
+  perspective: 1000px;
+  background-color: #fff;
+}
+.products-detail-wrapper .gallery .left-section .thumbs .image-wrapper img {
+  width: 105px;
+  height: 90px;
+  object-fit: contain;
+  cursor: pointer;
+  transform: rotateY(15deg);
+}
+.products-detail-wrapper .gallery .description {
+  flex: 1;
+}
+.products-detail-wrapper .gallery .description p {
+  color: #3A3A3A;
+  padding-block: 12px 32px;
+}
+.products-detail-wrapper .gallery .description h6 button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4C469C;
+  border: none;
+  border-radius: 5px;
+}
+.products-detail-wrapper .gallery .description h6 button a {
+  text-decoration: none;
+  color: #fff;
+}
+.products-detail-wrapper .features {
+  padding-bottom: 110px;
+}
+.products-detail-wrapper .features h2 {
+  color: #4C469C;
+  padding-block: 50px 20px;
+}
+.products-detail-wrapper .features ul {
+  padding: 4px 0 6px 30px;
+  color: #3A3A3A;
+}
+.products-detail-wrapper .features h5 {
+  padding-block: 5px;
+}
+.products-detail-wrapper .features h5 span {
+  color: #3A3A3A;
+}
+
 .carosel-wrapper .carosel-main-wrapper {
   position: relative;
   padding-top: 110px;
@@ -1329,7 +1420,7 @@ body {
   right: 5% !important;
 }
 .carosel-wrapper .description {
-  padding-block: 35px 110px;
+  padding-block: 35px;
 }
 .carosel-wrapper .description .date time {
   color: #3A3A3A;
@@ -1339,6 +1430,108 @@ body {
 }
 .carosel-wrapper .description p {
   color: #3A3A3A;
+}
+
+.project-listing-wrapper {
+  margin-block: 110px;
+}
+.project-listing-wrapper .views-row {
+  grid-column: span 4;
+}
+.project-listing-wrapper .views-row .project-view-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.project-listing-wrapper .views-row .project-view-wrapper .image-wrapper img {
+  height: 267px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.project-listing-wrapper .views-row .project-view-wrapper .detail {
+  color: #fff;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, 40%);
+  opacity: 0;
+  text-align: center;
+  transition: all 0.4s ease;
+  width: 100%;
+}
+.project-listing-wrapper .views-row .project-view-wrapper .detail::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-image: url("../icons/carbon_view-filled.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.4s ease;
+}
+.project-listing-wrapper .views-row .project-view-wrapper .detail a {
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  padding-top: 40px;
+}
+.project-listing-wrapper .views-row .project-view-wrapper:hover .detail {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+.project-listing-wrapper .views-row .project-view-wrapper:hover .detail a::before {
+  opacity: 1;
+}
+
+.project-slider-wrapper {
+  margin-block: 50px;
+}
+.project-slider-wrapper header {
+  text-align: center;
+  padding-bottom: 55px;
+}
+.project-slider-wrapper header h2 {
+  color: #4C469C;
+}
+.project-slider-wrapper .slick-slide {
+  min-height: 0;
+}
+.project-slider-wrapper .project-view-wrapper .image-wrapper {
+  margin: 0 12px;
+}
+.project-slider-wrapper .project-view-wrapper .image-wrapper img {
+  height: 267px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.project-slider-wrapper .slick-prev,
+.project-slider-wrapper .slick-next {
+  z-index: 10;
+}
+.project-slider-wrapper .slick-prev::before,
+.project-slider-wrapper .slick-next::before {
+  content: "";
+  background: url("../icons/arrow-icon.svg") no-repeat center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-slider-wrapper .slick-prev {
+  left: -4% !important;
+}
+.project-slider-wrapper .slick-prev::before {
+  transform: rotate(180deg);
+}
+.project-slider-wrapper .slick-next {
+  right: -2% !important;
 }
 
 /*# sourceMappingURL=style.css.map */
