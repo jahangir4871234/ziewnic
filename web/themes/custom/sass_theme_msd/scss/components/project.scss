@@ -58,7 +58,7 @@
 
     .description {
 
-        padding-block: $space-35 $space-110;
+        padding-block: $space-35;
 
         .date {
             time {
@@ -82,68 +82,129 @@
 
 
 
+//project Gallery view//
+.project-listing-wrapper {
+    margin-block: $space-110;
 
-// #block-sass-theme-msd-views-block-project-listing-block-1,#block-views-block-project-listing-block-1 {
-//     margin-block:$space-110;
-//   .views-row {
-//     grid-column: span 4;
+    .views-row {
+        grid-column: span 4;
 
-//     .project-view-wrapper {
-//       position: relative;
-//       overflow: hidden; // important
+        .project-view-wrapper {
+            position: relative;
+            overflow: hidden;
 
-//       .image-wrapper {
-//         img {
-//           height: 267px;
-//           width: 100%;
-//           object-fit: cover;
-//           border-radius: $space-5;
-//         }
-//       }
-//       .detail {
-//         position: absolute;
-//         top: 60%;         
-//         left: 50%;
-//         transform: translate(-50%, 40%); 
-//         opacity: 0;
-//         text-align: center;
-//         transition: all 0.4s ease;
-//         width: 100%;
-//       }
+            .image-wrapper {
+                img {
+                    height: 267px;
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: $space-5;
+                }
+            }
 
-//       .detail a {
-//         text-decoration: none;
-//         @extend .h3;
-//         color: $white;
-//         position: relative;
-//         display: inline-block;
-//         padding-top: $space-40;
-//       }
+            .detail {
+                @extend .h3;
+                color: $white;
+                position: absolute;
+                top: 60%;
+                left: 50%;
+                transform: translate(-50%, 40%);
+                opacity: 0;
+                text-align: center;
+                transition: all 0.4s ease;
+                width: 100%;
 
-//       .detail a::before {
-//         content: "";
-//         width: $space-50;
-//         height: $space-50;
-//         background-image: url('../icons/carbon_view-filled.svg');
-//         background-size: contain;
-//         background-repeat: no-repeat;
-//         position: absolute;
-//         top: 0;
-//         left: 50%;
-//         transform: translateX(-50%);
-//         opacity: 0;
-//         transition: opacity 0.4s ease;
-//       }
+                &::before {
+                    content: "";
+                    width: 50px;
+                    height: 50px;
+                    background-image: url('../icons/carbon_view-filled.svg');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    top: -10%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    transition: opacity 0.4s ease;
+                }
+
+            }
+
+            .detail a {
+                text-decoration: none;
+                @extend .h3;
+                color: $white;
+                position: relative;
+                display: inline-block;
+                padding-top: $space-40;
+            }
 
 
-//       &:hover .detail {
-//         opacity: 1;
-//         transform: translate(-50%, -50%); 
-//       }
 
-//       &:hover .detail a::before {
-//         opacity: 1; 
-//       }
-//     }
-//   }
-// }
+            &:hover .detail {
+                opacity: 1;
+                transform: translate(-50%, -50%);
+            }
+
+            &:hover .detail a::before {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+//project slider view//
+.project-slider-wrapper {
+    margin-block: $space-50;
+    header{
+        text-align: center;
+        padding-bottom:$space-55;
+        h2{
+            color: $primary-purple;
+        }
+    }
+    .slick-slide{
+        min-height:0;
+    }
+    .project-view-wrapper {
+        .image-wrapper {
+             margin: 0 $space-12;
+            img {
+                height: 267px;
+                width: 100%;
+                object-fit: cover;
+                border-radius: $space-5;
+                
+            }
+        }
+    }
+.slick-prev,
+    .slick-next {
+        z-index: 10;
+
+        &::before {
+            content: "";
+            background: url('../icons/arrow-icon.svg') no-repeat center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .slick-prev {
+        left: -4% !important;
+
+        &::before {
+            transform: rotate(180deg);
+        }
+    }
+
+    .slick-next {
+        right: -2% !important;
+    }
+    
+}

@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.products_.field_best_selling
+    - field.field.node.products_.field_body
     - field.field.node.products_.field_description
     - field.field.node.products_.field_featured
     - field.field.node.products_.field_price
@@ -27,6 +28,13 @@ content:
       format_custom_true: ''
     third_party_settings: {  }
     weight: 106
+    region: content
+  field_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 107
     region: content
   field_description:
     type: text_default

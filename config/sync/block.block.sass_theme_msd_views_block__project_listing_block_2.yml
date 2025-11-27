@@ -1,4 +1,4 @@
-uuid: 64a76d78-0850-49b3-8896-35abdb5f7f49
+uuid: 14c1d510-3ede-43eb-843a-533b2642dc3a
 langcode: en
 status: true
 dependencies:
@@ -9,17 +9,18 @@ dependencies:
     - views
   theme:
     - sass_theme_msd
-id: sass_theme_msd_views_block__project_listing_block_1
+id: sass_theme_msd_views_block__project_listing_block_2
 theme: sass_theme_msd
 region: content
 weight: 0
 provider: null
-plugin: 'views_block:project_listing-block_1'
+plugin: 'views_block:project_listing-block_2'
 settings:
-  id: 'views_block:project_listing-block_1'
+  id: 'views_block:project_listing-block_2'
   label: ''
   label_display: '0'
   provider: views
+  context_mapping: {  }
   views_label: ''
   items_per_page: null
   exposed: {  }

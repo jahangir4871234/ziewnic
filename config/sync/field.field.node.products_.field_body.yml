@@ -1,17 +1,17 @@
-uuid: 686429fe-2fad-404d-a1e6-b7552a6e73f4
+uuid: 3eaadb5f-e732-44b3-b969-c28b23214b29
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_description
+    - field.storage.node.field_body
     - node.type.products_
   module:
     - text
-id: node.products_.field_description
-field_name: field_description
+id: node.products_.field_body
+field_name: field_body
 entity_type: node
 bundle: products_
-label: Specifications
+label: Description
 description: ''
 required: false
 translatable: false
